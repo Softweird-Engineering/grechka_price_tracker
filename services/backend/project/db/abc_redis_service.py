@@ -35,4 +35,7 @@ class AbstractKeyValueService(ABC):
         val = await redis.get(key)
         redis.close()
         await redis.wait_closed()
-        return val.decode("utf-8")
+        try:
+            return val.decode("utf-8")
+        except AttributeError:
+            raise aioredis.RedisError
