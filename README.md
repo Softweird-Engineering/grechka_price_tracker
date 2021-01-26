@@ -1,5 +1,7 @@
 # Buckwheat prise scrapper
 
+**Deployed on:** GCP http://35.184.67.95/
+
 -------------------
 ## Instalation guide
 
@@ -33,5 +35,8 @@ API is running on ```http://localhost:1228```.
 ### Troubleshooting
 
 If the main content of the page will not load, **restart of services (Step 2)** may help with access troubles.
+
+-------------------------
+#### All questions to @you2ku (Telegram)
 
 
